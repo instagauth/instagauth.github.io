@@ -12,15 +12,19 @@
             var sParameterName = sURLVariables[i].split('=');
             if (sParameterName[0] == sParam)
             {
-              document.getElementById("myText").innerHTML = sParameterName[1];
               return sParameterName[1];
             }
         }
     }​
   </script>
 </head>
-<body onload="GetURLParameter(request_token)">
+<body>
 
-  <h1>Request ID: <span id="myText"></span></h1>
+  <h1>
+    Request ID:
+    <script type="text/javascript">
+        document.write(GetURLParameter('request_token'));
+      </script>
+  </h1>
 
 </body>
