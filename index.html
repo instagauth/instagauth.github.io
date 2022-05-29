@@ -3,10 +3,6 @@
 <h2>URL:&nbsp;</h2>
 <head>
   <script>
-    function getUrl()
-    {
-       document.getElementById("myText").innerHTML = GetURLParameter("request_id");
-    }
     function GetURLParameter(sParam)
     {
         var sPageURL = window.location.search.substring(1);
@@ -20,6 +16,10 @@
             }
         }
     }​
+    function getUrl()
+    {
+       document.getElementById("myText").innerHTML = GetURLParameter("request_id");
+    }
 
   </script>
 </head>
