@@ -1,6 +1,10 @@
 <h1 style="text-align:center">KITE API TEST</h1>
 
-<h2>URL:&nbsp;</h2>
+<h2>URL:&nbsp;
+  <script type="text/javascript">
+    document.write(window.location.search.substring(1))
+  </script>
+</h2>
 <head>
   <script type="text/javascript">
     function GetURLParameter(sParam)
@@ -21,11 +25,7 @@
 <body>
 
   <h1>
-    Request ID:
-    <script type="text/javascript">
-      var sRequest =  GetURLParameter('request_token');
-      document.write(sRequest);
-    </script>
+  Check your console for the request token!
   </h1>
 
 </body>
